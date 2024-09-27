@@ -1,0 +1,12 @@
+algoritmo "subtracao"
+var
+   SUBTRACAO :REAL
+   N1, N2 :REAL
+inicio
+   ESCREVAL("DIGITE UM NUMERO")
+   LEIA(N1)
+   ESCREVAL("DIGITE UM NUMERO")
+   LEIA(N2)
+   SUBTRACAO<- N1 - N2
+   ESCREVAL("O RESULTADO DA SUBTRAÇÃO É: ",SUBTRACAO)
+fimalgoritmo

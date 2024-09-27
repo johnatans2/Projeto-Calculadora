@@ -1,0 +1,13 @@
+algoritmo "fatorial"
+var
+   N: INTEIRO
+   FATORIAL, C: INTEIRO
+inicio
+   FATORIAL <- 1
+   ESCREVAL(" DIGITE O NÚMERO PARA FATORIAL ")
+   LEIA(N)
+   PARA C DE N ATE 1 PASSO -1 FACA
+      FATORIAL <- FATORIAL * C
+   FIMPARA
+   ESCREVAL("O RESULTADO DO FATORIAL É: ", FATORIAL)
+fimalgoritmo
